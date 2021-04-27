@@ -43,7 +43,7 @@ module.exports = {
                 link: '/guide/',
             }, {
                 text: 'License',
-                link: '/license/',
+                link: '/guide/license/',
             }/*,
             {
                 text: 'Config',
