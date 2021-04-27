@@ -1,0 +1,19 @@
+{
+  "name": "zxc_php",
+  "version": "0.0.1",
+  "description": "PHP Framework",
+  "main": "index.js",
+  "authors": {
+    "name": "Giman Nikolay",
+    "email": "gimanhead@gmail.com"
+  },
+  "repository": "norepo/ZXC_PHP",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
