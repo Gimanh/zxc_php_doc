@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>First application | ZXC_PHP</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="PHP Framework">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.7fad836b.css" as="style"><link rel="preload" href="/assets/js/app.a14403a1.js" as="script"><link rel="preload" href="/assets/js/2.ae3ccb94.js" as="script"><link rel="preload" href="/assets/js/14.de7070bf.js" as="script"><link rel="prefetch" href="/assets/js/10.21be4b94.js"><link rel="prefetch" href="/assets/js/11.b0efc439.js"><link rel="prefetch" href="/assets/js/12.5641b3c5.js"><link rel="prefetch" href="/assets/js/13.75a0bd02.js"><link rel="prefetch" href="/assets/js/15.3c9326d8.js"><link rel="prefetch" href="/assets/js/16.de4e6c6e.js"><link rel="prefetch" href="/assets/js/17.73771aaf.js"><link rel="prefetch" href="/assets/js/18.1be4af4b.js"><link rel="prefetch" href="/assets/js/19.eefd0703.js"><link rel="prefetch" href="/assets/js/20.a86091be.js"><link rel="prefetch" href="/assets/js/3.f153be8f.js"><link rel="prefetch" href="/assets/js/4.4d31d94d.js"><link rel="prefetch" href="/assets/js/5.569bfa89.js"><link rel="prefetch" href="/assets/js/6.498ab014.js"><link rel="prefetch" href="/assets/js/7.7e550121.js"><link rel="prefetch" href="/assets/js/8.fbde365e.js"><link rel="prefetch" href="/assets/js/9.b751af4a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7fad836b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/Logo.png" alt="ZXC_PHP" class="logo"> <span class="site-name can-hide">ZXC_PHP</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div> <a href="https://github.com/Gimanh/ZXC_PHP" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div> <a href="https://github.com/Gimanh/ZXC_PHP" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/" aria-current="page" class="sidebar-link">Introduction</a></li><li><a href="/guide/installation.html" class="sidebar-link">Installation</a></li><li><a href="/guide/directories_structure.html" class="sidebar-link">Directory structure</a></li><li><a href="/guide/first_app.html" aria-current="page" class="active sidebar-link">First application</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/first_app.html#step-by-step" class="sidebar-link">Step by step</a></li></ul></li><li><a href="/guide/server_settings.html" class="sidebar-link">Server settings</a></li><li><a href="/guide/config_file.html" class="sidebar-link">Configuration</a></li><li><a href="/guide/routing.html" class="sidebar-link">Routing</a></li><li><a href="/guide/middleware.html" class="sidebar-link">Middleware</a></li><li><a href="/guide/modules.html" class="sidebar-link">Modules system</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="first-application"><a href="#first-application" class="header-anchor">#</a> First application</h1> <p>Here you can find information how to create your first project using <code>ZXC_PHP</code> Framework.</p> <div class="custom-block tip"><p class="custom-block-title">Do not wait, just do it.</p> <p>It is easy and simple. Just follow steps below.</p></div> <h2 id="step-by-step"><a href="#step-by-step" class="header-anchor">#</a> Step by step</h2> <div class="custom-block tip"><p class="custom-block-title">Composer installation</p> <p>You can find more information how install composer  <a href="https://getcomposer.org/download/" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p></div> <h3 id="create-following-folder-structure"><a href="#create-following-folder-structure" class="header-anchor">#</a> Create following folder structure</h3> <div class="custom-block tip"><p class="custom-block-title">Directory structure example.</p> <div class="language-text extra-class"><pre class="language-text"><code>|─MyProject  
+|───config  
+|─────config.json  
+|───log  
+|───server  
+|─────App  
+|───────App.php  
+|───web 
+|─────index.php 
+|─────.htaccess 
+</code></pre></div></div> <div class="language-shell script extra-class"><pre class="language-shell"><code><span class="token comment"># config folder</span>
+$ <span class="token function">mkdir</span> -p MyProject/config
+$ <span class="token function">touch</span> MyProject/config/config.json
+<span class="token comment"># folder for application scripts</span>
+$ <span class="token function">mkdir</span> -p MyProject/server/App
+$ <span class="token function">touch</span> MyProject/server/App/Application.php
+$ <span class="token function">touch</span> MyProject/server/App/AppMiddlewareClass.php
+$ <span class="token function">touch</span> MyProject/server/App/RouteMiddlewares.php
+<span class="token comment"># folder for application entry point and server config</span>
+$ <span class="token function">mkdir</span> -p MyProject/web
+$ <span class="token function">touch</span> MyProject/web/index.php
+$ <span class="token function">touch</span> MyProject/web/.htaccess
+</code></pre></div><h3 id="add-following-code-to-myproject-config-config-json"><a href="#add-following-code-to-myproject-config-config-json" class="header-anchor">#</a> Add following code to <code>MyProject/config/config.json</code></h3> <details class="custom-block details"><summary>Show config content</summary> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;router&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;useAppMiddlewares&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;appMiddlewareAlias&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;middlewares&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;firstMiddlewareAlias&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\RouteMiddlewares:myMiddleware&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;secondMiddlewareAlias&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\RouteMiddlewares:myMiddleware2&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;appMiddlewareAlias&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\AppMiddlewareClass&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;notFoundHandler&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\RouteMiddlewares:notFound&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;routes&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;middlewares&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                    <span class="token string">&quot;firstMiddlewareAlias&quot;</span>
+                <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;method&quot;</span><span class="token operator">:</span> <span class="token string">&quot;GET&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;route&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;handler&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\Application:hello&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;children&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">&quot;middlewares&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                        <span class="token string">&quot;firstMiddlewareAlias&quot;</span><span class="token punctuation">,</span>
+                        <span class="token string">&quot;secondMiddlewareAlias&quot;</span>
+                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;route&quot;</span><span class="token operator">:</span> <span class="token string">&quot;:user&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;handler&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\Application:helloUser&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;children&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                        <span class="token property">&quot;middlewares&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                        <span class="token property">&quot;route&quot;</span><span class="token operator">:</span> <span class="token string">&quot;static/profile&quot;</span><span class="token punctuation">,</span>
+                        <span class="token property">&quot;handler&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\Application:profile&quot;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;middlewares&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                    <span class="token string">&quot;firstMiddlewareAlias&quot;</span>
+                <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;method&quot;</span><span class="token operator">:</span> <span class="token string">&quot;GET&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;route&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/:user/static&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;handler&quot;</span><span class="token operator">:</span> <span class="token string">&quot;App\\Application:helloStatic&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;modules&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details> <h3 id="add-following-code-to-myproject-server-app-application-php"><a href="#add-following-code-to-myproject-server-app-application-php" class="header-anchor">#</a> Add following code to <code>MyProject/server/App/Application.php</code></h3> <details class="custom-block details"><summary>Show Application.php content</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+
+<span class="token keyword">namespace</span> <span class="token package">App</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Native<span class="token punctuation">\</span>RouteParams</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Native<span class="token punctuation">\</span>PSR<span class="token punctuation">\</span>Response</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Native<span class="token punctuation">\</span>PSR<span class="token punctuation">\</span>ServerRequest</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">class</span> <span class="token class-name">Application</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">hello</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequest</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">Response</span> <span class="token variable">$response</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RouteParams</span> <span class="token variable">$routeParams</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Hello'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">helloUser</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequest</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">Response</span> <span class="token variable">$response</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RouteParams</span> <span class="token variable">$routeParams</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$userName</span> <span class="token operator">=</span> <span class="token function">json_encode</span><span class="token punctuation">(</span><span class="token variable">$routeParams</span><span class="token operator">-&gt;</span><span class="token function">getParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Hello user '</span> <span class="token operator">.</span> <span class="token punctuation">(</span><span class="token variable">$userName</span><span class="token punctuation">)</span> <span class="token operator">.</span> <span class="token string single-quoted-string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">helloStatic</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequest</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">Response</span> <span class="token variable">$response</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RouteParams</span> <span class="token variable">$routeParams</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$userName</span> <span class="token operator">=</span> <span class="token function">json_encode</span><span class="token punctuation">(</span><span class="token variable">$routeParams</span><span class="token operator">-&gt;</span><span class="token function">getParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Hello static method for '</span> <span class="token operator">.</span> <span class="token punctuation">(</span><span class="token variable">$userName</span><span class="token punctuation">)</span> <span class="token operator">.</span> <span class="token string single-quoted-string">' '</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">profile</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequest</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">Response</span> <span class="token variable">$response</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RouteParams</span> <span class="token variable">$routeParams</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$json</span> <span class="token operator">=</span> <span class="token function">json_encode</span><span class="token punctuation">(</span><span class="token variable">$routeParams</span><span class="token operator">-&gt;</span><span class="token function">getParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Called profile method '</span> <span class="token operator">.</span> <span class="token variable">$json</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</span></code></pre></div></details> <h3 id="add-following-code-to-myproject-server-app-appmiddlewareclass-php"><a href="#add-following-code-to-myproject-server-app-appmiddlewareclass-php" class="header-anchor">#</a> Add following code to <code>MyProject/server/App/AppMiddlewareClass.php</code></h3> <details class="custom-block details"><summary>Show AppMiddlewareClass.php content</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+
+<span class="token keyword">namespace</span> <span class="token package">App</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Server<span class="token punctuation">\</span>MiddlewareInterface</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Message<span class="token punctuation">\</span>ResponseInterface</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Server<span class="token punctuation">\</span>RequestHandlerInterface</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Message<span class="token punctuation">\</span>ServerRequestInterface</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">class</span> <span class="token class-name">AppMiddlewareClass</span> <span class="token keyword">implements</span> <span class="token class-name">MiddlewareInterface</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">process</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequestInterface</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RequestHandlerInterface</span> <span class="token variable">$handler</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token class-name return-type">ResponseInterface</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$response</span> <span class="token operator">=</span> <span class="token variable">$handler</span><span class="token operator">-&gt;</span><span class="token function">handle</span><span class="token punctuation">(</span><span class="token variable">$request</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">getBody</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'World'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</span></code></pre></div></details> <h3 id="add-following-code-to-myproject-server-app-routemiddlewares-php"><a href="#add-following-code-to-myproject-server-app-routemiddlewares-php" class="header-anchor">#</a> Add following code to <code>MyProject/server/App/RouteMiddlewares.php</code></h3> <details class="custom-block details"><summary>Show RouteMiddlewares.php content</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+
+<span class="token keyword">namespace</span> <span class="token package">App</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Native<span class="token punctuation">\</span>PSR<span class="token punctuation">\</span>Response</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Message<span class="token punctuation">\</span>RequestInterface</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Server<span class="token punctuation">\</span>RequestHandlerInterface</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>Interfaces<span class="token punctuation">\</span>Psr<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Message<span class="token punctuation">\</span>ServerRequestInterface</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">class</span> <span class="token class-name">RouteMiddlewares</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">myMiddleware</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequestInterface</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RequestHandlerInterface</span> <span class="token variable">$handler</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$response</span> <span class="token operator">=</span> <span class="token variable">$handler</span><span class="token operator">-&gt;</span><span class="token function">handle</span><span class="token punctuation">(</span><span class="token variable">$request</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">getBody</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">' [middleware first] '</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">myMiddleware2</span><span class="token punctuation">(</span><span class="token class-name type-declaration">ServerRequestInterface</span> <span class="token variable">$request</span><span class="token punctuation">,</span> <span class="token class-name type-declaration">RequestHandlerInterface</span> <span class="token variable">$handler</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token variable">$response</span> <span class="token operator">=</span> <span class="token variable">$handler</span><span class="token operator">-&gt;</span><span class="token function">handle</span><span class="token punctuation">(</span><span class="token variable">$request</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$response</span><span class="token operator">-&gt;</span><span class="token function">getBody</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string single-quoted-string">' [middleware second] '</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token variable">$response</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">notFound</span><span class="token punctuation">(</span><span class="token class-name type-declaration">RequestInterface</span> <span class="token variable">$request</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Response</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">withStatus</span><span class="token punctuation">(</span><span class="token number">404</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></code></pre></div></details> <h3 id="install-zxc-php-using-composer"><a href="#install-zxc-php-using-composer" class="header-anchor">#</a> Install <code>ZXC_PHP</code> using composer</h3> <div class="language-shell extra-class"><pre class="language-shell"><code>$ <span class="token builtin class-name">cd</span> MyProject/
+$ <span class="token function">composer</span> require giman/zxc_php:dev-master
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">Result (see selected lines below)</p> <p>As a result you can see new folder <code>vendor</code> with nested two folders <code>composer</code>, <code>giman</code> and <code>autoload.php</code>.<br>
+Also, composer create two files <code>composer.json</code> and <code>composer.lock</code> in root directory</p> <div class="language-text extra-class"><div class="highlight-lines"><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-text"><code>|─MyProject  
+|───config  
+|─────config.json  
+|───server  
+|─────App  
+|───────App.php  
+|───vendor 
+|───────compose  
+|───────giman  
+|───────autoload.php  
+|───web 
+|─────index.php 
+|─────.htaccess 
+|───composer.json 
+|───composer.lock 
+</code></pre></div></div> <h3 id="enable-rewrite-rule-for-web-server"><a href="#enable-rewrite-rule-for-web-server" class="header-anchor">#</a> Enable rewrite rule for web server</h3> <div class="custom-block tip"><p class="custom-block-title">Server settings for different web servers</p> <p><a href="/guide/server_settings.html#apache">Apache</a> <a href="/guide/server_settings.html#nginx">Nginx</a> <a href="/guide/server_settings.html#iis">IIS</a></p></div> <p>Add following lines into <code>.htaccess</code></p> <div class="language-apacheconfig extra-class"><pre class="language-text"><code>RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+</code></pre></div><h3 id="add-an-autoload-for-application-to-composer-json"><a href="#add-an-autoload-for-application-to-composer-json" class="header-anchor">#</a> Add an autoload for application to <code>composer.json</code></h3> <p>Add application namespace for an autoloader.</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;autoload&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;psr-4&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;App\\&quot;</span><span class="token operator">:</span> <span class="token string">&quot;server/App&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="init-zxc-php"><a href="#init-zxc-php" class="header-anchor">#</a> Init ZXC_PHP</h3> <p>Add following code to <code>web\index.php</code>.
+Here we require composer autoloader, application config file and create ZXC_PHP instance.</p> <div class="language-php extra-class"><pre class="language-php"><code><span class="token keyword">use</span> <span class="token package">ZXC<span class="token punctuation">\</span>ZXCFactory</span><span class="token punctuation">;</span>
+
+<span class="token keyword">require</span> <span class="token constant">__DIR__</span> <span class="token operator">.</span> <span class="token string single-quoted-string">'/../vendor/autoload.php'</span><span class="token punctuation">;</span>
+
+<span class="token variable">$appConfig</span> <span class="token operator">=</span> <span class="token constant">__DIR__</span> <span class="token operator">.</span> <span class="token string single-quoted-string">'/../config/config.json'</span><span class="token punctuation">;</span>
+
+<span class="token class-name static-context">ZXCFactory</span><span class="token operator">::</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token variable">$appConfig</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="test-application"><a href="#test-application" class="header-anchor">#</a> Test application</h3> <p>Now you can try test created application. Change <code>localhost</code> for your own host in links below.<br>
+In our created application we have tree registered routes.</p> <ul><li><code>http://&lt;localhost&gt;/</code></li> <li><code>http://&lt;localhost&gt;/james</code> - <code>[james]</code> is dynamic parameter</li> <li><code>http://&lt;localhost&gt;/james/static</code> - <code>[james]</code> is dynamic parameter and other static path <code>/static</code>.</li> <li><code>http://&lt;localhost&gt;/james/static/profile</code> - <code>[james]</code> is dynamic parameter and other static path <code>/static/profile</code>.</li></ul> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>As you can see below children routes do not extend parent parameter <code>middleware</code>.<br>
+See route <code>http://&lt;localhost&gt;/james/static/profile</code> in config file above.</p></div> <p>Visit home page <code>http://&lt;localhost&gt;/</code>.</p> <details class="custom-block details"><summary>Home page execution order with middlewares</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token comment">// alias =&gt; appMiddlewareAlias</span>
+<span class="token class-name static-context">AppMiddlewareClass</span><span class="token operator">::</span><span class="token function">process</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; firstMiddlewareAlias</span>
+<span class="token class-name static-context">RouteMiddlewares</span><span class="token operator">::</span><span class="token function">myMiddleware</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; no alias it is handler endpoint</span>
+<span class="token class-name static-context">Application</span><span class="token operator">::</span><span class="token function">hello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></details> <p>Visit user page <code>http://&lt;localhost&gt;/james</code>.</p> <details class="custom-block details"><summary>User page execution order with middlewares</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token comment">// alias =&gt; appMiddlewareAlias</span>
+<span class="token class-name static-context">AppMiddlewareClass</span><span class="token operator">::</span><span class="token function">process</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; firstMiddlewareAlias</span>
+<span class="token class-name static-context">RouteMiddlewares</span><span class="token operator">::</span><span class="token function">myMiddleware</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; secondMiddlewareAlias</span>
+<span class="token class-name static-context">RouteMiddlewares</span><span class="token operator">::</span><span class="token function">myMiddleware2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; no alias it is handler endpoint</span>
+<span class="token class-name static-context">Application</span><span class="token operator">::</span><span class="token function">helloUser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></details> <p>Visit static page <code>http://&lt;localhost&gt;/james/static</code>.</p> <details class="custom-block details"><summary>Static page execution order with middlewares</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token comment">// alias =&gt; appMiddlewareAlias</span>
+<span class="token class-name static-context">AppMiddlewareClass</span><span class="token operator">::</span><span class="token function">process</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; firstMiddlewareAlias</span>
+<span class="token class-name static-context">RouteMiddlewares</span><span class="token operator">::</span><span class="token function">myMiddleware</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; no alias it is handler endpoint</span>
+<span class="token class-name static-context">Application</span><span class="token operator">::</span><span class="token function">helloStatic</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></details> <p>Visit static page <code>http://&lt;localhost&gt;/james/static/profile</code>.</p> <details class="custom-block details"><summary>Profile page execution order with middlewares</summary> <div class="language-php extra-class"><pre class="language-php"><code><span class="token comment">// alias =&gt; appMiddlewareAlias</span>
+<span class="token class-name static-context">AppMiddlewareClass</span><span class="token operator">::</span><span class="token function">process</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// alias =&gt; no alias it is handler endpoint</span>
+<span class="token class-name static-context">Application</span><span class="token operator">::</span><span class="token function">profile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></details></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/Gimanh/zxc_php_doc/edit/edit/docs/src/guide/first_app.md" target="_blank" rel="noopener noreferrer">Help me improve this page!</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/directories_structure.html" class="prev">
+        Directory structure
+      </a></span> <span class="next"><a href="/guide/server_settings.html">
+        Server settings
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a14403a1.js" defer></script><script src="/assets/js/2.ae3ccb94.js" defer></script><script src="/assets/js/14.de7070bf.js" defer></script>
+  </body>
+</html>
