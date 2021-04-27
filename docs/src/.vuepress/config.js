@@ -27,10 +27,13 @@ module.exports = {
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
     themeConfig: {
+        logo: '/images/Logo.png',
         repo: 'https://github.com/Gimanh/ZXC_PHP',
         editLinks: true,
-        docsDir: '',
+        docsDir: 'docs/src',
+        docsRepo: 'https://github.com/Gimanh/zxc_php_doc',
         editLinkText: 'Help me improve this page!',
+        docsBranch: 'edit',
         lastUpdated: false,
         nav: [
             {
