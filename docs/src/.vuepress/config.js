@@ -27,6 +27,7 @@ module.exports = {
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
     themeConfig: {
+        base:'zxc_php_doc',
         logo: '/images/Logo.png',
         repo: 'https://github.com/Gimanh/ZXC_PHP',
         editLinks: true,
