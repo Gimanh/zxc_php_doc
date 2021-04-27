@@ -11,5 +11,5 @@ features:
   details: Define a configuration and write API handler.
 - title: PSR-7
   details: ZXC_PHP supports PSR-7 interfaces for its Request and Response objects.
-footer: Made by Giman Nikolay with ❤️
+footer: MIT Licensed | Copyright © 2019-present Giman Nikolay made with ❤️
 ---

@@ -26,7 +26,7 @@ module.exports = {
      *
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
-    base:'/zxc_php_doc/',
+    base: '/zxc_php_doc/',
     themeConfig: {
         logo: '/images/Logo.png',
         repo: 'https://github.com/Gimanh/ZXC_PHP',
@@ -40,6 +40,9 @@ module.exports = {
             {
                 text: 'Guide',
                 link: '/guide/',
+            }, {
+                text: 'License',
+                link: '/license/',
             }/*,
             {
                 text: 'Config',
@@ -54,7 +57,7 @@ module.exports = {
             '/guide/': [
                 {
                     title: 'Guide',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         '',
                         'installation',
@@ -65,6 +68,13 @@ module.exports = {
                         'routing',
                         'middleware',
                         'modules',
+                    ]
+                },
+                {
+                    title: 'License',
+                    collapsable: true,
+                    children: [
+                        'license',
                     ]
                 }
             ],
