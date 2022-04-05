@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/Logo.png****
+heroImage: /images/Logo.png
 tagline: PHP Framework
 actionText: Quick Start →
 actionLink: /guide/
