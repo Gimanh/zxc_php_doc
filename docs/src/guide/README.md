@@ -14,7 +14,8 @@ The idea the framework and its approach to software architecture is minimalism a
 
 # Request Response 
 
-![alt text](/images/middleware.png)
+<img :src="$withBase('/images/middleware.png')" alt="foo">
+
 
 # Support
 

@@ -6,7 +6,7 @@ route item.
 
 # Request Response
 
-![alt text](/images/middleware.png)
+<img :src="$withBase('/images/middleware.png')" alt="foo">
 
 ### middlewares
 
