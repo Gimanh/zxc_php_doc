@@ -9,6 +9,30 @@ Config folder contains application setting and application module setting. For w
 use class `ZXC\ZXCConfig`, each folder in config directory is represented as module. Each module can have `options`
 , `routes` and `middlewares`.
 
+`ZXC\ZXCConfig` has `create` method which accept path to `config` directory and return valid config `array`, this array
+can be passed into `ZXCFactory::create`. You can see example which is used in `/web/index.php`
+
+```php{8}
+<?php
+
+use ZXC\ZXCConfig;
+use ZXC\ZXCFactory;
+
+require dirname(__FILE__) . '/../vendor/autoload.php';
+
+ZXCFactory::create(ZXCConfig::create(dirname(__FILE__) . '/../config/'));
+```
+
+`ZXC\ZXCConfig` scans the `config` directory and then converts the folders into a `module` with their options.
+
+## Why we use json file instead of php
+
+The main reason is restricting you writing some logic in config file. JSON file accept only parameter's data, in php you
+can write some functions with logic and config will look dirty. The configuration is divided into module settings, this
+approach helps us understand the configs and quickly find the information we need. The module directory contains three
+files, `options.json`, `route.json`, and `middlewares.json` which contain custom settings that you can work with faster
+than one large file.
+
 ## File `options.json`
 
 This file describes which module will be called and with which options.
