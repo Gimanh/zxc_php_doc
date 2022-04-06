@@ -12,6 +12,9 @@ The idea the framework and its approach to software architecture is minimalism a
 * Define route with handler in config file
 * Implement handler
 
+# Request Response 
+
+![alt text](/images/middleware.png)
 
 # Support
 

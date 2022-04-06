@@ -4,6 +4,10 @@
 described in an array in the json file. In `routes.json` you can describe some routes, lets watch to the properties for
 route item.
 
+# Request Response
+
+![alt text](/images/middleware.png)
+
 ### middlewares
 
 - Type: `string[]`
